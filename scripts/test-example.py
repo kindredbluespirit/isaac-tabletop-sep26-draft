@@ -1,4 +1,4 @@
-from isaaclab_arena.assets.asset_registry import AssetRegistry
+from isaaclab_arena.assets.registries import AssetRegistry
 from isaaclab_arena.environments.arena_env_builder import ArenaEnvBuilder, ArenaEnvBuilderCfg
 from isaaclab_arena.environments.isaaclab_arena_environment import IsaacLabArenaEnvironment
 from isaaclab_arena.scene.scene import Scene

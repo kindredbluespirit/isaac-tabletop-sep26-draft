@@ -4,7 +4,9 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "isaaclab-arena",
+]
 
 [project.scripts]
 isaac-tabletop-sep26-draft = "isaac_tabletop_sep26_draft:main"
@@ -12,3 +14,6 @@ isaac-tabletop-sep26-draft = "isaac_tabletop_sep26_draft:main"
 [build-system]
 requires = ["uv_build>=0.12.17,<0.13.0"]
 build-backend = "uv_build"
+
+[tool.uv.sources]
+isaaclab-arena = { path = "../IsaacLab-Arena", editable = true }
